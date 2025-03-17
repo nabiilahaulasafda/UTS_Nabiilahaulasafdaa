@@ -29,6 +29,18 @@ Route::get('/pengajuan', function () {
     return view('pengajuan');
 });
 
+Route::get('/jadwal', function () {
+    return view('jadwal');
+});
+
+Route::get('/sertifikat', function () {
+    return view('sertifikat');
+});
+
+Route::get('/profil', function () {
+    return view('profil');
+});
+
 Route::get('/master', function () {
     return view('master');
 });
