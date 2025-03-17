@@ -1,45 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <title>Document</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-warning-subtle">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+@extends('layout.master')
+@section('title')
+    Beranda
+@endsection
 
-      <footer class="fixed-bottom bg-warning-subtle text-dark py-2 mt-4 text-center">
-        <div class="text-end">
-            Copyright &copy; Nabiilah Aula Safda - 2025
-        </div>
-      </footer>
+@section('beranda', 'active')
 
-      <script src="{{asset('js/bootstrap.min.js')}}"></script>
-      <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-</body>
-</html>
+@section('isi')
+      <div class="container mt-5">
+        <ul class="list-group">
+            <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+
+      </div>
+
+@endsection

@@ -24,4 +24,14 @@ Route::get('/login', function () {
 Route::get('/beranda', function () {
     return view('beranda');
 });
+
+Route::get('/pengajuan', function () {
+    return view('pengajuan');
+});
+
+Route::get('/master', function () {
+    return view('master');
+});
+
+
 ?>
