@@ -23,7 +23,7 @@
             <label for="floatingPassword">Password</label>
         </div>
 
-          <a href="#" class="btn btn-primary"> login </a>
+          <a href="/beranda" class="btn btn-primary"> login </a>
         </div>
       </div>
     </div>

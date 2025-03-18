@@ -61,6 +61,10 @@
                                     <label for="disabledTextInput" class="form-label">Jumat</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
+                                <div>
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Upload</button>
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Edit</button>
+                                </div>
                             </form>
                         </div>
                     </div>
