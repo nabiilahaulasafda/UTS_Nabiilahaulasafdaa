@@ -45,5 +45,9 @@ Route::get('/master', function () {
     return view('master');
 });
 
+Route::get('/open', function () {
+    return view('open');
+});
+
 
 ?>
