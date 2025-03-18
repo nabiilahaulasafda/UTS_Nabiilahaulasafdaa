@@ -47,7 +47,7 @@
                                 </div>
                         </fieldset>
                     <div class="text-end">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <a href="/pengajuan">  Tutup  </a> </button>
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <a class="nav-link" href="/pengajuan">  Tutup  </a> </button>
                         <button class="btn btn-outline-secondary" type="button" id="button-addon2">Disetujui</button>
                     </div>
                 </div>
