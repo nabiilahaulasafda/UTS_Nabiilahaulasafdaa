@@ -53,6 +53,10 @@ Route::get('/edit', function () {
     return view('jadwal.edit');
 });
 
+Route::get('/openj', function () {
+    return view('jadwal.openj');
+});
+
 Route::get('/tambah', function () {
     return view('jadwal.tambah');
 });
@@ -61,8 +65,20 @@ Route::get('/upload', function () {
     return view('sertifikat.upload');
 });
 
+Route::get('/opens', function () {
+    return view('sertifikat.opens');
+});
+
 Route::get('/edits', function () {
     return view('sertifikat.edits');
+});
+
+Route::get('/editp', function () {
+    return view('pengajuan.editp');
+});
+
+Route::get('/add', function () {
+    return view('pengajuan.add');
 });
 
 ?>

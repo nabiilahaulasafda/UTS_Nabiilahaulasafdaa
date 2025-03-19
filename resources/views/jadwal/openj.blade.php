@@ -18,30 +18,33 @@
                 <div class="row g-3 ">
                         <div class="col mt-3 mx-3">
                             <form class="p-3">
+                                <fieldset disabled>
                                 <div class="mb-3">
-                                    <label for="" class="form-label">Kode Jadwal</label>
+                                    <label for="disabledTextInput" class="form-label">Kode Jadwal</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="" class="form-label">NIP Petugas</label>
+                                    <label for="disabledTextInput" class="form-label">NIP Petugas</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="" class="form-label">Nim Mahasiswa</label>
+                                    <label for="disabledTextInput" class="form-label">Nim Mahasiswa</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="" class="form-label">Mulai Magang</label>
+                                    <label for="disabledTextInput" class="form-label">Mulai Magang</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="" class="form-label">Selesai Magang</label>
+                                    <label for="disabledTextInput" class="form-label">Selesai Magang</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
+                            </fieldset disabled>
                             </form>
                         </div>
                         <div class="col mt-3 mx-3">
                             <form class="p-3">
+                                <fieldset disabled>
                                 <div class="mb-3">
                                     <label for="disabledTextInput" class="form-label">Senin</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
@@ -62,11 +65,11 @@
                                     <label for="disabledTextInput" class="form-label">Jumat</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
-                                <div>
-                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <a class="nav-link" href="/jadwal"> Submit </a> </button>
-                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <a class="nav-link" href="/jadwal"> Tutup </a> </button>
-                                </div>
+                            </fieldset disabled>
                             </form>
+                                <div class="text-end">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <a class="nav-link" href="/jadwal">Tutup</a> </button>
+                                </div>
                         </div>
                     </div>
                 </div>

@@ -63,7 +63,7 @@
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
                                 <div>
-                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Upload</button>
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <a class="nav-link" href="/jadwal">Submit</a></button>
                                     <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <a class="nav-link" href="/jadwal">Tutup</a> </button>
                                 </div>
                             </form>
