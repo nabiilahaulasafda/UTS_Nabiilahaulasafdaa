@@ -10,7 +10,7 @@
 
 <div class="container center col-6 col-sm-4">
     <div class="card mt-5">
-        <div class="card-header text-center">
+        <div class="card-header float-start">
               <h2> DAFTAR PENGAJUAN </h2>
         </div>
         <div class="card-body">

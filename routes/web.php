@@ -49,5 +49,12 @@ Route::get('/open', function () {
     return view('open');
 });
 
+Route::get('/edit', function () {
+    return view('edit');
+});
+
+Route::get('/tambah', function () {
+    return view('tambah');
+});
 
 ?>
