@@ -22,39 +22,39 @@ Route::get('/login', function () {
 });
 
 Route::get('/beranda', function () {
-    return view('beranda');
+    return view('beranda.beranda');
 });
 
 Route::get('/pengajuan', function () {
-    return view('pengajuan');
+    return view('pengajuan.pengajuan');
 });
 
 Route::get('/jadwal', function () {
-    return view('jadwal');
+    return view('jadwal.jadwal');
 });
 
 Route::get('/sertifikat', function () {
-    return view('sertifikat');
+    return view('sertifikat.sertifikat');
 });
 
 Route::get('/profil', function () {
-    return view('profil');
+    return view('profil.profil');
 });
 
 Route::get('/master', function () {
-    return view('master');
+    return view('layout.master');
 });
 
 Route::get('/open', function () {
-    return view('open');
+    return view('pengajuan.open');
 });
 
 Route::get('/edit', function () {
-    return view('edit');
+    return view('jadwal.edit');
 });
 
 Route::get('/tambah', function () {
-    return view('tambah');
+    return view('jadwal.tambah');
 });
 
 ?>

@@ -1,9 +1,9 @@
 @extends('layout.master')
 @section('title')
-    Beranda
+    Sertifikat
 @endsection
 
-@section('beranda', 'active')
+@section('sertifikat', 'active')
 
 @section('isi')
 <ul class="list-group">
