@@ -12,7 +12,7 @@
     <div class="card mt-5">
         <div class="card-header">
               <h2 class="float-start"> DAFTAR JADWAL </h2>
-              <span class="float-end btn btn-outline-dark text-dark text-end btn-sm">
+              <span class="float-end btn btn-outline-secondary text-end btn-sm" type="button" id="button-addon2">
                 <a class="nav-link" href="/tambah"> <i class="fa-solid fa-user-plus"> </i> + Add </a>
                 </span>
         </div>

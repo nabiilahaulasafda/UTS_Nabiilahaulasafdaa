@@ -57,4 +57,12 @@ Route::get('/tambah', function () {
     return view('jadwal.tambah');
 });
 
+Route::get('/upload', function () {
+    return view('sertifikat.upload');
+});
+
+Route::get('/edits', function () {
+    return view('sertifikat.edits');
+});
+
 ?>
