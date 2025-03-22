@@ -121,6 +121,20 @@
             border-radius: 50%;
             margin: 0 auto;
         }
+        .body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .table th, .table td {
+            text-align: center;
+        }
         .gradient-nav {
             background: linear-gradient(to right, #5B0000, #C06D6D); /* Warna gradasi */
             color: white;
@@ -167,7 +181,7 @@
                 <ul class="list-unstyled text-start small mx-3">
                     <li class="py-1"><i class="fa-solid fa-key"></i> Ganti Password</li>
                     <li class="py-1"><i class="fa-solid fa-gear"></i> Pengaturan</li>
-                    <li class="py-1"><i class="fa-solid fa-right-from-bracket"></i> Logout</li>
+                    <li class="py-1"> <a class="nav-link" href="/login"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
                 </ul>
             </div>
         </div>
@@ -181,7 +195,10 @@
     <!-- Footer -->
     <footer class="footer">
         <div>
-            Copyright &copy; Nabiilah Aula Safda - 2025
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
         </div>
     </footer>
 

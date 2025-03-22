@@ -81,4 +81,8 @@ Route::get('/add', function () {
     return view('pengajuan.add');
 });
 
+Route::get('/data', function () {
+    return view('laporan.data');
+});
+
 ?>

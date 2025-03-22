@@ -7,7 +7,7 @@
 @section('isi')
 
 
-<div class="container center col-6 col-sm-12 mt-5">
+<div class="container center col-6 col-sm-12">
     <div class="card" style="border: none">
         <div class="card-header gradient-nav">
               <h2 class="float-start"> DAFTAR JADWAL </h2>
